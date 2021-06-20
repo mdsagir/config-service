@@ -16,7 +16,7 @@ spec:
     spec:
       terminationGracePeriodSeconds: 20
       containers:
-        - name: catalog-app
+        - name: config-app
           image: sagiransari/config-service:0.0.1-SNAPSHOT
           lifecycle:
             preStop:
